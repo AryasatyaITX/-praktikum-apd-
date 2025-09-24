@@ -4,14 +4,14 @@
         <attribute name="name" value="konversi_suhu"/>
         <attribute name="authors" value=""/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-09-24 04:53:43 PM"/>
+        <attribute name="saved" value="2025-09-24 07:49:04 PM"/>
         <attribute name="created" value="dXNlcjtERVNLVE9QLTRONTdVODI7MjAyNS0wOS0yMjswOTozMjo0OSBQTTsyNzUy"/>
-        <attribute name="edited" value="dXNlcjtERVNLVE9QLTRONTdVODI7MjAyNS0wOS0yNDswNDo1Mzo0MyBQTTs0OzI4NTc="/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLTRONTdVODI7MjAyNS0wOS0yNDswNzo0OTowNCBQTTs1OzI4NjM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Suhu" type="Integer" array="True" size="4"/>
+            <declare name="Suhu" type="Integer" array="True" size="5"/>
             <declare name="suhu0, suhu1, suhu2, suhu3, suhu4, suhu5, Jumlah, NIM" type="Integer" array="False" size=""/>
             <declare name="Fahrenheit1, Fahrenheit2, Kelvin3, Kelvin4, Reamur5, Reamur6, rata2" type="Real" array="False" size=""/>
             <declare name="bool" type="Boolean" array="False" size=""/>
