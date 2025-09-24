@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="konversi_suhu"/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-24 04:53:43 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLTRONTdVODI7MjAyNS0wOS0yMjswOTozMjo0OSBQTTsyNzUy"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLTRONTdVODI7MjAyNS0wOS0yNDswNDo1Mzo0MyBQTTs0OzI4NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Suhu" type="Integer" array="True" size="4"/>
+            <declare name="suhu0, suhu1, suhu2, suhu3, suhu4, suhu5, Jumlah, NIM" type="Integer" array="False" size=""/>
+            <declare name="Fahrenheit1, Fahrenheit2, Kelvin3, Kelvin4, Reamur5, Reamur6, rata2" type="Real" array="False" size=""/>
+            <declare name="bool" type="Boolean" array="False" size=""/>
+            <assign variable="suhu0" expression="27"/>
+            <assign variable="suhu1" expression="33"/>
+            <assign variable="suhu2" expression="46"/>
+            <assign variable="suhu3" expression="55"/>
+            <assign variable="suhu4" expression="67"/>
+            <assign variable="suhu5" expression="92"/>
+            <assign variable="Fahrenheit1" expression="(9/5) * suhu0 + 32"/>
+            <assign variable="Fahrenheit2" expression="(9/5) * suhu1 + 32"/>
+            <assign variable="Kelvin3" expression="suhu2 + 273.15"/>
+            <assign variable="Kelvin4" expression="suhu3 + 273.15"/>
+            <assign variable="Reamur5" expression="(4/5) * suhu4"/>
+            <assign variable="Reamur6" expression="(4/5) * suhu5"/>
+            <assign variable="jumlah" expression="Fahrenheit1 + Fahrenheit2 + Kelvin3 + Kelvin4 + Reamur5 + Reamur6"/>
+            <assign variable="rata2" expression="jumlah / 6"/>
+            <assign variable="NIM" expression="66"/>
+            <assign variable="bool" expression="NIM &lt; rata2"/>
+            <output expression="&quot;suhu dalam Celcius = [27,33,46,55,67,92]&quot;" newline="True"/>
+            <output expression="&quot;Fahrenheit 1: &quot; &amp; Fahrenheit1" newline="True"/>
+            <output expression="&quot;Fahrenheit 2: &quot; &amp; Fahrenheit2" newline="True"/>
+            <output expression="&quot;Kelvin 3: &quot; &amp; Kelvin3" newline="True"/>
+            <output expression="&quot;Kelvin 4: &quot; &amp; Kelvin4" newline="True"/>
+            <output expression="&quot;Reamur 5: &quot; &amp; Reamur5" newline="True"/>
+            <output expression="&quot;Reamur 6: &quot; &amp; Reamur6" newline="True"/>
+            <output expression="&quot;Jumlah: &quot; &amp; jumlah" newline="True"/>
+            <output expression="&quot;Rata-rata: &quot; &amp; rata2" newline="True"/>
+            <output expression="&quot;NIM: &quot; &amp; NIM" newline="True"/>
+            <output expression="&quot;Boolean (NIM &lt; rata2): &quot; &amp; bool" newline="True"/>
+            <output expression="&quot;Slice suhu (46 sampai 92): &quot; &amp; suhu2 &amp; &quot;, &quot; &amp; suhu3 &amp; &quot;, &quot; &amp; suhu4 &amp; &quot;, &quot; &amp; suhu5" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
