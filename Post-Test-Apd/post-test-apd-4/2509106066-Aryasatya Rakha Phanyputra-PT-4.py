@@ -107,6 +107,7 @@ while True:
         continue
 
 
+    ulang = input("Apakah Anda ingin input lagi (Y/T)? ").upper()
     while ulang != "Y" and ulang != "T":
         print("Jawaban hanya boleh Y atau T!")
         ulang = input("Apakah Anda ingin input lagi (Y/T)? ").upper()
