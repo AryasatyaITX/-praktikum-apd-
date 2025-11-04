@@ -372,6 +372,7 @@ def menuwal():
         else:
             print("Pilihan tidak valid.")
             input("\nTekan Enter untuk kembali ke menu...")
-
-
+print(line1)
+print("selamat datang di DUNGEON & DRAGONS!!!")
+print(line1)
 menuwal()
