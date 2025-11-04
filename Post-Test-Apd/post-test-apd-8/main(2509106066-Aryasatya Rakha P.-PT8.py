@@ -1,7 +1,7 @@
 import os
 import inquirer
 from prettytable import PrettyTable
-from autentikasi import *
+from autentikasi import LOGIN,REGISTER
 from admin import adminmenu
 from user import usermenu
 from data import line1
